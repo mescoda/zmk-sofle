@@ -58,6 +58,8 @@
 &kp LSHFT  &kp Z         &kp X         &kp C         &kp V         &kp B        &none  &kp N        &kp M                 &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
 &none      &kp LCTRL     &kp LGUI      &lt 1 SPACE   &kp LSHFT     &lt 5 TAB    &none  &lt 2 SPACE  &mt LEFT_SHIFT ENTER  &kp ESC    &kp BSPC  &kp RALT
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         layer_1 {
@@ -68,6 +70,8 @@
 &kp LEFT_SHIFT  &none      &none      &none      &none      &kp TAB      &none  &none          &kp LC(M)      &none      &none      &kp LS(LG(SLASH))     &kp RIGHT_SHIFT
 &none           &none      &none      &none      &none      &none        &none  &mo 4          &kp LC(ENTER)  &none      &none      &none
             >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_2 {
@@ -78,6 +82,8 @@
 &none      &kp LA(Z)   &kp LA(X)   &kp LG(C)      &kp LG(V)    &kp LG(B)     &none  &kp LG(N1)     &kp LG(N2)        &kp LG(N3)        &kp LG(N4)   &none      &none
 &none      &none       &none       &kp LA(SPACE)  &lt 3 SPACE  &none         &none  &none          &none             &none             &none        &none
             >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
@@ -88,6 +94,8 @@
 &none  &none  &none  &kp LC(LA(LG(C)))  &none  &none    &none  &kp LC(LA(LG(MINUS)))  &kp LC(LA(LG(M)))     &kp LG(LA(LC(C)))   &none                  &none  &none
 &none  &none  &none  &none              &none  &none    &none  &none                  &none                 &none               &none                  &none
             >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_4 {
@@ -98,6 +106,8 @@
 &kp LSHFT       &none  &none  &none      &none      &none        &none  &kp BSLH        &kp PAGE_DOWN    &kp PAGE_UP     &none            &none  &kp RSHFT
 &none           &none  &none  &none      &none      &none        &none  &none           &none            &none           &none            &none
             >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_5 {
@@ -108,6 +118,8 @@
 &kp LEFT_SHIFT  &kp LA(Z)   &kp LA(X)   &none       &none       &none        &none  &kp BSLH   &kp PIPE         &kp COMMA     &kp DOT               &kp FSLH               &kp RSHFT
 &none           &none       &none       &none       &none       &none        &none  &none      &kp LSHFT        &none         &none                 &none
             >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_6 {
@@ -118,6 +130,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
