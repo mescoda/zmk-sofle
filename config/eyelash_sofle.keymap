@@ -92,11 +92,11 @@
 
         layer_4 {
             bindings = <
-&bt BT_CLR_ALL  &bt BT_PRV  &bt BT_NXT  &none      &none      &none        &none  &kp RBKT        &kp RIGHT_BRACE  &none           &none            &none  &none
-&none           &none       &none       &none      &kp TILDE  &kp GRAVE    &none  &msc SCRL_LEFT  &msc SCRL_UP     &msc SCRL_DOWN  &msc SCRL_RIGHT  &none  &none
-&none           &none       &none       &mkp LCLK  &mkp RCLK  &kp TAB      &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP    &mmv MOVE_RIGHT  &none  &none
-&kp LSHFT       &none       &none       &none      &none      &none        &none  &kp BSLH        &kp PAGE_DOWN    &kp PAGE_UP     &none            &none  &kp RSHFT
-&none           &none       &none       &none      &none      &none        &none  &none           &none            &none           &none            &none
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none  &kp RBKT        &kp RIGHT_BRACE  &none           &none            &none  &none
+&none           &bt BT_PRV    &bt BT_NXT    &none         &kp TILDE     &kp GRAVE       &none  &msc SCRL_LEFT  &msc SCRL_UP     &msc SCRL_DOWN  &msc SCRL_RIGHT  &none  &none
+&none           &none         &none         &mkp LCLK     &mkp RCLK     &kp TAB         &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP    &mmv MOVE_RIGHT  &none  &none
+&kp LSHFT       &none         &none         &none         &none         &none           &none  &kp BSLH        &kp PAGE_DOWN    &kp PAGE_UP     &none            &none  &kp RSHFT
+&none           &none         &none         &none         &none         &none           &none  &none           &none            &none           &none            &none
             >;
         };
 
