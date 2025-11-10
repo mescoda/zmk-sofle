@@ -52,11 +52,11 @@
 
         layer_0 {
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &none  &kp N6       &kp N7                &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q         &kp W         &kp E         &kp R         &kp T          &none  &kp Y        &kp U                 &kp I      &kp O     &kp P     &kp LBKT
-&kp CAPS   &kp A         &kp S         &kp D         &kp F         &kp G          &none  &kp H        &kp J                 &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z         &kp X         &kp C         &kp V         &kp B          &none  &kp N        &kp M                 &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&none      &kp LCTRL     &kp LGUI      &lt 1 SPACE   &kp LSHFT     &lt 5 SPACE    &none  &lt 2 SPACE  &mt LEFT_SHIFT ENTER  &kp ESC    &kp BSPC  &kp RALT
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &none  &kp N6       &kp N7                &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q         &kp W         &kp E         &kp R         &kp T     &none  &kp Y        &kp U                 &kp I      &kp O     &kp P     &kp LBKT
+&kp CAPS   &kp A         &kp S         &kp D         &kp F         &kp G     &none  &kp H        &kp J                 &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z         &kp X         &kp C         &kp V         &kp B     &none  &kp N        &kp M                 &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&none      &kp LCTRL     &kp LGUI      &lt 1 SPACE   &kp LSHFT     &mo 5     &none  &lt 2 SPACE  &mt LEFT_SHIFT ENTER  &kp ESC    &kp BSPC  &kp RALT
             >;
         };
 
@@ -93,7 +93,7 @@
         layer_4 {
             bindings = <
 &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none  &kp RBKT        &kp RIGHT_BRACE  &none           &none            &none  &none
-&none           &bt BT_PRV    &bt BT_NXT    &none         &kp TILDE     &kp GRAVE       &none  &msc SCRL_LEFT  &msc SCRL_UP     &msc SCRL_DOWN  &msc SCRL_RIGHT  &none  &none
+&bt BT_CLR      &bt BT_PRV    &bt BT_NXT    &none         &kp TILDE     &kp GRAVE       &none  &msc SCRL_LEFT  &msc SCRL_UP     &msc SCRL_DOWN  &msc SCRL_RIGHT  &none  &none
 &none           &none         &none         &mkp LCLK     &mkp RCLK     &kp TAB         &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP    &mmv MOVE_RIGHT  &none  &none
 &kp LSHFT       &none         &none         &none         &none         &none           &none  &kp BSLH        &kp PAGE_DOWN    &kp PAGE_UP     &none            &none  &kp RSHFT
 &none           &none         &none         &none         &none         &none           &none  &none           &none            &none           &none            &none
